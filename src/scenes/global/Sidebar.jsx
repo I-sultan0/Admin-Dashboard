@@ -80,7 +80,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS
+                  CHATAKK
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -97,12 +97,9 @@ const Sidebar = () => {
                   width="100px"
                   height="100px"
                   src={
-                    "https://imgs.search.brave.com/Z0SybQ8uInxOqJeBYIApOENmn6PNZ9e1cnaW3uncbXc/rs:fit:750:369:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8ta0tNU1h2Ny1t/T3MvWDEyOGFldUl2/VEkvQUFBQUFBQUFL/S0kvSGo3c1lfZ0ty/YVEyMkZwVmJvcVVT/TFlyQkFWNGgwQWxB/Q0xjQkdBc1lIUS9z/NzUwL0FsbGFtYS1a/YW1lZXItQWtodGFy/LU5hcXZpLmpwZw"
+                    "https://imgs.search.brave.com/f8WCTr1ZFlWacZLtc2h0IsGNO0REaZlOaa58c4vy5-M/rs:fit:820:993:1/g:ce/aHR0cHM6Ly93d3cu/cG5na2l0LmNvbS9w/bmcvZGV0YWlsLzE3/OC0xNzg2MjgxX2J1/c2luZXNzLWxvZ29z/LWFrLWxvZ28tZGVz/aWduLXBuZy5wbmc"
                   }
-                  style={{
-                    cursor: "pointer",
-                    borderRadius: "50%",
-                  }}
+                  style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
               <Box textAlign="center">
@@ -112,10 +109,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  Sultan Akhter
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  CTO Admin
                 </Typography>
               </Box>
             </Box>
